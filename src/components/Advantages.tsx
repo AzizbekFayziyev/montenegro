@@ -13,6 +13,40 @@ const Advantages = () => {
         />
       </h2>
 
+      <div className="flex items-center justify-between flex-wrap gap-4 mt-8">
+        <iframe className="sm:max-w-[320px] h-[200px] w-full rounded-xl"
+          src="https://www.youtube.com/embed/6t_zsJXiWeE"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+
+        <iframe className="sm:max-w-[320px] h-[200px] w-full rounded-xl"
+          src="https://www.youtube.com/embed/w32KC3Vkgp8"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+
+        <iframe className="sm:max-w-[320px] h-[200px] w-full rounded-xl"
+          src="https://www.youtube.com/embed/gRwImp3k7T8"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+
+        <iframe className="sm:max-w-[320px] h-[200px] w-full rounded-xl"
+          src="https://www.youtube.com/embed/1WtkoqRAyf0"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+{/* 
       <div className="mt-8 flex justify-center gap-6 flex-wrap">
         <div className="w-full sm:max-w-[290px] min-h-[290px] bg-lightBlue p-5 rounded-2xl flex flex-col">
           <div className="flex flex-col text-center items-center gap-4">
@@ -89,7 +123,7 @@ const Advantages = () => {
             Посмотреть
           </a>
         </div>
-      </div>
+      </div> */}
 
       <div id="advantages" className="mt-20">
         <h2 className="text-center font-bold text-neutral text-3xl relative w-max mx-auto">

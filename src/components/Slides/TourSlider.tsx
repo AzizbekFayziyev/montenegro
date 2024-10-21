@@ -38,7 +38,7 @@ export default function TourSlider() {
         {TourCards.map((card, id) => (
           <SwiperSlide key={id}>
             <div className="w-[340px] sm:w-[390px] h-[390px] rounded-2xl relative p-4 flex flex-col items-center justify-end gap-4 overflow-hidden">
-              <Image className="-z-10" src={card.img} alt={card.title} fill />
+              <img className="-z-10 absolute top-0 left-0 w-full h-full object-cover" src={card.img} alt={card.title} />
 
               <h4 className="text-3xl text-center font-bold text-white">
                 {card.title}

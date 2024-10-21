@@ -1,5 +1,6 @@
 import React from "react";
 import HeroSlider from "./Slides/HeroSlider";
+import ContactBtns from "./ContactBtns";
 
 const Header = () => {
   return (
@@ -18,9 +19,13 @@ const Header = () => {
             Получить быстрее, легче, дешевле, а права даёт такие же! От вас
             требуется только оплата и предоставление документов нам, остальное
             сделаем мы! С документами поможем! Напишите нам сейчас и ваши
-            документы начнут готовиться уже завтра. Пишите в <a className="text-secondary" target="_blank" href="https://wa.me/+38268757078"><b>WhatsApp</b></a> или 
-             <a className="text-secondary" target="_blank" href="https://t.me/+79255074559"> <b>Telegram</b></a>!
+            документы начнут готовиться уже завтра. Пишите в WhatsApp или
+            Telegram!
           </p>
+
+          <div className="mb-8 -mt-4">
+            <ContactBtns />
+          </div>
         </div>
 
         <div>

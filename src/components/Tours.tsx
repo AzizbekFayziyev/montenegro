@@ -1,5 +1,6 @@
 import React from "react";
 import TourSlider from "./Slides/TourSlider";
+import ContactBtns from "./ContactBtns";
 
 const Tours = () => {
   return (
@@ -20,24 +21,13 @@ const Tours = () => {
         оформлению, восстановлению и переводу документов) в Черногории под ключ!{" "}
         <br />
         Получите ВНЖ Черногории уже через 30 дней, откройте карту международного
-        банка и передвигайся свободно по миру! <br /> Напишите нам в{" "}
-        <a
-          className="text-secondary"
-          href="https://wa.me/+38268757078"
-          target="_blank"
-        >
-          <b>WhatsApp</b>{" "}
-        </a>
-        или{" "}
-        <a
-          className="text-secondary"
-          target="_blank"
-          href="https://t.me/+79255074559"
-        >
-          <b>Telegram</b>
-        </a>
-        !
+        банка и передвигайся свободно по миру! <br /> Напишите нам в WhatsApp
+        или Telegram!
       </h6>
+
+      <div className="mb-8 -mt-2">
+        <ContactBtns />
+      </div>
 
       <div className="w-[1550px] mx-auto mt-8 pl-4">
         <TourSlider />

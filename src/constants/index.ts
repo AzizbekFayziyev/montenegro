@@ -39,25 +39,25 @@ type tourCard = {
 
 export const TourCards: tourCard[] = [
   {
-    img: "/heroSlides/2.png",
+    img: "/slides/1.jpg",
     title: "Сделать ВНЖ по бизнесу",
     price: 500,
     day: 40,
   },
   {
-    img: "/heroSlides/1.png",
+    img: "/slides/2.jpg",
     title: "Сделать ВНЖ по недвижимости",
     price: 500,
     day: 30,
   },
   {
-    img: "/heroSlides/3.png",
+    img: "/slides/3.jpg",
     title: "Помощь в сборе документов на ВНЖ",
     price: 500,
     day: 20,
   },
   {
-    img: "/heroSlides/4.png",
+    img: "/slides/4.jpg",
     title: "Подать документы на ВНЖ",
     price: 500,
     day: 2,

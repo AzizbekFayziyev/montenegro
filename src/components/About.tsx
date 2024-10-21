@@ -11,6 +11,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import ContactBtns from "./ContactBtns";
 
 const About = () => {
   const data = [
@@ -78,11 +79,24 @@ const About = () => {
             ))}
           </div>
         </div>
+
+        <div className="bg-lightBlue py-10  my-14">
+          <div className="wrapper text-center">
+            <p className="font-bold text-neutral text-3xl max-w-[900px] mx-auto">
+              Мы работаем давно, зарегистрированы официально, платим налоги и
+              имеем репутацию. Если вам хочется получить ВНЖ Черногории
+              побыстрее, без отказов и заморочек, то мы сможем это сделать!
+              Пишите в WhatsApp или Telegram!
+            </p>
+
+            <ContactBtns />
+          </div>
+        </div>
       </section>
 
       <section id="about" className="mt-10">
         <h2 className="text-center font-bold text-neutral text-3xl relative w-max mx-auto">
-          О нас
+          Кто мы?
           <img
             src="/lines/line5.svg"
             alt="line"
@@ -93,7 +107,7 @@ const About = () => {
         <div className="mt-8 bg-neutral flex flex-wrap xl:flex-nowrap">
           <Image
             className="w-full min-h-[200px] xl:h-auto xl:max-w-[800px] object-cover"
-            src="/headerBg.png"
+            src="/about.jpg"
             alt="royal tour image"
             width={960}
             height={480}
@@ -101,11 +115,11 @@ const About = () => {
 
           <div className="px-4 py-6 lg:px-8 lg:py-16">
             <p className="text-white xl:max-w-[570px]">
-              <b>Кто мы?</b> Мы команда юристов и риелторов из РФ, Республики
-              Беларусь и Украины. В 2022 году на базе агентства недвижимости
-              "СMM MONTENEGRO" стали увеличиваться заявки на получение
-              шенгенских виз, ВНЖ Черногории, банковских карт и по подбору
-              недвижимости от русскоязычных клиентов.
+              Мы команда юристов и риелторов из РФ, Республики Беларусь и
+              Украины. В 2022 году на базе агентства недвижимости "СMM
+              MONTENEGRO" стали увеличиваться заявки на получение шенгенских
+              виз, ВНЖ Черногории, банковских карт и по подбору недвижимости от
+              русскоязычных клиентов.
               <br />
               <br />
               В следствии чего было создано отдельное русскоязычное направление

@@ -52,6 +52,7 @@ const HeroSlider = () => {
         autoplay={{
           delay: 2000,
           disableOnInteraction: false,
+          reverseDirection: true,
         }}
         coverflowEffect={{
           rotate: 0,
@@ -63,11 +64,9 @@ const HeroSlider = () => {
         pagination={true}
         modules={[EffectCoverflow, Pagination, Autoplay, Navigation]}
       >
-        {[1, 2, 3, 4, 5, 6].map((e) => (
+        {[1, 2, 3, 4, 5].map((e) => (
           <SwiperSlide key={e}>
-            <img src={`/heroSlides/${e}.png`} alt="slider image" />
-
-         
+            <img src={`/heroSlides/${e}.jpg`} alt="slider image" />
           </SwiperSlide>
         ))}
       </Swiper>

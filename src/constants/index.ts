@@ -11,7 +11,7 @@ export const NavLinks: navLink[] = [
     path: "#",
   },
   {
-    title: "Преимущества",
+    title: "Услуги",
     path: "#advantages",
   },
   {
@@ -34,45 +34,33 @@ type tourCard = {
   img: string;
   title: string;
   price: number;
-  day: string;
+  day: number;
 };
 
 export const TourCards: tourCard[] = [
   {
-    img: "/heroSlides/1.png",
-    title: "Дубай",
+    img: "/heroSlides/2.png",
+    title: "Сделать ВНЖ по бизнесу",
     price: 500,
-    day: "5 ночей, all-inclusive",
+    day: 40,
   },
   {
-    img: "/heroSlides/2.png",
-    title: "Дубай",
+    img: "/heroSlides/1.png",
+    title: "Сделать ВНЖ по недвижимости",
     price: 500,
-    day: "5 ночей, all-inclusive",
+    day: 30,
   },
   {
     img: "/heroSlides/3.png",
-    title: "Дубай",
+    title: "Помощь в сборе документов на ВНЖ",
     price: 500,
-    day: "5 ночей, all-inclusive",
+    day: 20,
   },
   {
     img: "/heroSlides/4.png",
-    title: "Дубай",
+    title: "Подать документы на ВНЖ",
     price: 500,
-    day: "5 ночей, all-inclusive",
-  },
-  {
-    img: "/heroSlides/5.png",
-    title: "Дубай",
-    price: 500,
-    day: "5 ночей, all-inclusive",
-  },
-  {
-    img: "/heroSlides/6.png",
-    title: "Дубай",
-    price: 500,
-    day: "5 ночей, all-inclusive",
+    day: 2,
   },
 ];
 

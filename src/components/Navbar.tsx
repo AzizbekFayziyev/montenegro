@@ -102,13 +102,11 @@ const Navbar = () => {
           <nav>
             <h6 className="text-lg mb-4 font-bold">Контакты</h6>
 
-            <li className="list-none text-base flex gap-2 items-center my-1 -ml-3">
-               <PhoneCall color="#2985ff" /> 8(929)940-54-54
-            </li>
-
-            <li className="list-none text-base flex gap-2 items-center my-4">
-              <Mail color="#2985ff" /> Moi.glaza.vezde@yandex.ru
-            </li>
+            <a href="tel:+38268757078">
+              <li className="list-none text-base flex gap-2 items-center my-1 -ml-3">
+                 <PhoneCall color="#2985ff" /> +38268757078
+              </li>
+            </a>
           </nav>
           <nav className="mt-8">
             <h6 className="text-lg mb-4 font-bold">Соц. сети</h6>
@@ -129,6 +127,14 @@ const Navbar = () => {
                 <img width={28} src="/wa.svg" alt="whatsapp" />
               </Link>
             </div>
+          </nav>
+          <nav className="flex flex-col gap-2 mt-6">
+            <a className="text-gray-300" href="/Политика конфиденциальности vnj-chernogoria.com.docx">
+              Политика конфиденциальности
+            </a>
+            <a className="text-gray-300" href="/Публичная офферта vnj-chernogoria.com.docx">
+              Публичная офферта
+            </a>
           </nav>
         </div>
       </nav>

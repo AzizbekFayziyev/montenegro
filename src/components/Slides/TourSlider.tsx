@@ -41,16 +41,17 @@ export default function TourSlider() {
               <Image className="-z-10" src={card.img} alt={card.title} fill />
 
               <h4 className="text-3xl text-center font-bold text-white">
-                Получите ВНЖ Черногории
+                {card.title}
               </h4>
 
               <p className="text-white text-center">
-                уже через <b className="text-secondary">30 дней!</b>
+                За <b className="text-secondary">{card.day} дней!</b>
               </p>
 
               <Link
                 className="btn btn-primary w-full font-semibold text-lg"
-                href="#contacts"
+                href="https://wa.me/+38268757078"
+                target="_blank"
               >
                 Получить
               </Link>

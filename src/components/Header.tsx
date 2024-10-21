@@ -18,8 +18,8 @@ const Header = () => {
             Получить быстрее, легче, дешевле, а права даёт такие же! От вас
             требуется только оплата и предоставление документов нам, остальное
             сделаем мы! С документами поможем! Напишите нам сейчас и ваши
-            документы начнут готовиться уже завтра. Пишите в <a className="text-secondary" target="_blank" href="https://wa.me/+38268757078">WhatsApp</a> или 
-             <a className="text-secondary" target="_blank" href="https://t.me/+79255074559"> Telegram</a>!
+            документы начнут готовиться уже завтра. Пишите в <a className="text-secondary" target="_blank" href="https://wa.me/+38268757078"><b>WhatsApp</b></a> или 
+             <a className="text-secondary" target="_blank" href="https://t.me/+79255074559"> <b>Telegram</b></a>!
           </p>
         </div>
 

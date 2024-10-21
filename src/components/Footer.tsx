@@ -39,7 +39,7 @@ const Footer = () => {
               </a>
             </nav>
             <nav>
-              <h6 className="text-lg mb-4 font-bold">Соц. сети</h6>
+              <h6 className="text-lg mb-4 font-bold">Мессенджеры</h6>
 
               <div className="flex items-center gap-4">
                 <Link

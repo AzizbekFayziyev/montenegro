@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -19,12 +18,12 @@ const Banner = () => {
 
             <Link target="_blank" href="https://t.me/+79255074559">
               <button className="btn btn-secondary px-6 text-base text-neutral">
-              Заказать услугу
+                Заказать услугу
               </button>
             </Link>
           </div>
 
-          <Image
+          <img
             className="lg:mt-6"
             src="/bannerHero.png"
             alt="banner image"

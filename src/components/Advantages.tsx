@@ -14,120 +14,55 @@ const Advantages = () => {
       </h2>
 
       <div className="flex items-center justify-between flex-wrap gap-4 mt-8">
-        <iframe
-          className="sm:max-w-[320px] h-[200px] w-full rounded-xl"
-          src="https://www.youtube.com/embed/6t_zsJXiWeE"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+        <div className="bg-black overflow-hidden rounded-xl mx-auto hover:bg-primary transition-colors">
+          <iframe
+            className="sm:max-w-[320px] h-[200px] w-full"
+            src="https://www.youtube.com/embed/34bW57xAj3g"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+          <h5 className="text-white text-center p-3 text-xl">Светлана</h5>
+        </div>
 
-        <iframe
-          className="sm:max-w-[320px] h-[200px] w-full rounded-xl"
-          src="https://www.youtube.com/embed/w32KC3Vkgp8"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+        <div className="bg-black overflow-hidden rounded-xl mx-auto hover:bg-primary transition-colors">
+          <iframe
+            className="sm:max-w-[320px] h-[200px] w-full"
+            src="https://www.youtube.com/embed/9egdPauQ5pU"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+          <h5 className="text-white text-center p-3 text-xl">Зарина</h5>
+        </div>
 
-        <iframe
-          className="sm:max-w-[320px] h-[200px] w-full rounded-xl"
-          src="https://www.youtube.com/embed/gRwImp3k7T8"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+        <div className="bg-black overflow-hidden rounded-xl mx-auto hover:bg-primary transition-colors">
+          <iframe
+            className="sm:max-w-[320px] h-[200px] w-full"
+            src="https://www.youtube.com/embed/JLIxTTTEZao"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+          <h5 className="text-white text-center p-3 text-xl">Андрей</h5>
+        </div>
 
-        <iframe
-          className="sm:max-w-[320px] h-[200px] w-full rounded-xl"
-          src="https://www.youtube.com/embed/1WtkoqRAyf0"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+        <div className="bg-black overflow-hidden rounded-xl mx-auto hover:bg-primary transition-colors">
+          <iframe
+            className="sm:max-w-[320px] h-[200px] w-full"
+            src="https://www.youtube.com/embed/1hgYtBI15Qs"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+          <h5 className="text-white text-center p-3 text-xl">Марина</h5>
+        </div>
       </div>
-      {/* 
-      <div className="mt-8 flex justify-center gap-6 flex-wrap">
-        <div className="w-full sm:max-w-[290px] min-h-[290px] bg-lightBlue p-5 rounded-2xl flex flex-col">
-          <div className="flex flex-col text-center items-center gap-4">
-            <div className="bg-lightBlue2 p-3 rounded-full">
-              <User size={50} color="#2985ff" />
-            </div>
-            <h5 className="font-bold text-neutral text-xl">
-              Отзыв Марины. Сделали за 42 дня.
-            </h5>
-          </div>
-          <a
-            target="_blank"
-            href="https://www.youtube.com/shorts/w32KC3Vkgp8"
-            className="mt-auto btn btn-primary w-full font-semibold text-lg"
-          >
-            <Play size={18} />
-            Посмотреть
-          </a>
-        </div>
 
-        <div className="w-full sm:max-w-[290px] min-h-[290px] bg-lightYellow p-5 rounded-2xl flex flex-col">
-          <div className="flex flex-col text-center items-center gap-4">
-            <div className="bg-lightYellow2 p-3 rounded-full">
-              <User size={50} color="#ffd785" />
-            </div>
-            <h5 className="font-bold text-neutral text-xl">
-              Светлане сделали за <br /> 33 дня.
-            </h5>
-          </div>
-          <a
-            target="_blank"
-            href="https://www.youtube.com/shorts/6t_zsJXiWeE"
-            className="mt-auto btn btn-primary w-full font-semibold text-lg"
-          >
-            <Play size={18} />
-            Посмотреть
-          </a>
-        </div>
-
-        <div className="w-full sm:max-w-[290px] min-h-[290px] bg-lightBlue p-5 rounded-2xl flex flex-col">
-          <div className="flex flex-col text-center items-center gap-4">
-            <div className="bg-lightBlue2 p-3 rounded-full">
-              <User size={50} color="#2985ff" />
-            </div>
-            <h5 className="font-bold text-neutral text-xl">
-              Андрею сделали за <br /> 44 дня.
-            </h5>
-          </div>
-          <a
-            target="_blank"
-            href="https://www.youtube.com/shorts/gRwImp3k7T8"
-            className="mt-auto btn btn-primary w-full font-semibold text-lg"
-          >
-            <Play size={18} />
-            Посмотреть
-          </a>
-        </div>
-
-        <div className="w-full sm:max-w-[290px] min-h-[290px] bg-lightYellow p-5 rounded-2xl flex flex-col">
-          <div className="flex flex-col text-center items-center gap-4">
-            <div className="bg-lightYellow2 p-3 rounded-full">
-              <User size={50} color="#ffd785" />
-            </div>
-            <h5 className="font-bold text-neutral text-xl">
-              Зарине открыли компанию и сделали ВНЖ за 58 дней.
-            </h5>
-          </div>
-          <a
-            target="_blank"
-            href="https://www.youtube.com/shorts/1WtkoqRAyf0"
-            className="mt-auto btn btn-primary w-full font-semibold text-lg"
-          >
-            <Play size={18} />
-            Посмотреть
-          </a>
-        </div>
-      </div> */}
 
       <div id="advantages" className="mt-20">
         <h2 className="text-center font-bold text-neutral text-3xl relative w-max mx-auto">

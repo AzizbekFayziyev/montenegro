@@ -54,6 +54,16 @@ export default function RootLayout({
             `,
           }}
         />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16759904993">
+
+        </script>
+
+        <script type="text/javascript" dangerouslySetInnerHTML={{__html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-16759904993');
+          `}} />
       </head>
       <body className={inter.className}>
         <Navbar />

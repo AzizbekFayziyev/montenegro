@@ -1,15 +1,12 @@
 import {
   FileCheck,
   Landmark,
-  User,
   CreditCard,
   Map,
   Timer,
   Pill,
   Smile,
 } from "lucide-react";
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import ContactBtns from "./ContactBtns";
 
@@ -105,7 +102,7 @@ const About = () => {
         </h2>
 
         <div className="mt-8 bg-neutral flex flex-wrap xl:flex-nowrap">
-          <Image
+          <img
             className="w-full min-h-[200px] xl:h-auto xl:max-w-[800px] object-cover"
             src="/about.jpg"
             alt="royal tour image"
